@@ -22,7 +22,7 @@ main {
   padding: 20px;
 }
 
-/* ==== CARRUSEL ==== */
+
 .carousel {
   position: relative;
   overflow: hidden;
@@ -91,7 +91,7 @@ main {
   background-color: #c9a07a;
 }
 
-/* ==== SECCIONES ==== */
+
 section {
   margin-top: 40px;
 }

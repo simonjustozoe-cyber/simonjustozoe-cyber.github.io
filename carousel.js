@@ -41,11 +41,11 @@ function resetTimer() {
   if (autoplay) timer = setInterval(next, 4000);
 }
 
-// Inicializar
+
 renderIndicators();
 resetTimer();
 
-// Pausar autoplay al pasar el mouse
+
 ['mouseenter', 'touchstart'].forEach(ev => {
   document.getElementById('carousel').addEventListener(ev, () => {
     autoplay = false;
